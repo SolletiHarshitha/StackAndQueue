@@ -11,6 +11,8 @@ namespace StackAndQueueImplementation
         {
             this.head = null;
         }
+
+        //Enqueue elements
         public void Enqueue(int data)
         {
             // Adding At Last in the Queue....
@@ -26,6 +28,7 @@ namespace StackAndQueueImplementation
             }
         }
 
+        //Display elements
         public void Display()
         {
             // Displaying Queue....

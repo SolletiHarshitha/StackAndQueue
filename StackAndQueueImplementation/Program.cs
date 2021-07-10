@@ -29,7 +29,7 @@ namespace StackAndQueueImplementation
             stack.Display();
             Console.WriteLine("-----------------------------------------------------");
             Console.WriteLine();
-            Console.WriteLine("-------------------------Queue-----------------------");
+            Console.WriteLine("-------------------------Queue-----------------------\n");
             Queue queue = new Queue();
 
             //Adding elements
