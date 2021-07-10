@@ -28,6 +28,17 @@ namespace StackAndQueueImplementation
             }
         }
 
+        //Dequeue elements
+        public void Dequeue()
+        {
+            // Delete At First in the Queue....
+            if (head == null)
+                Console.WriteLine(" Queue is Empty ");
+            else
+                head = head.Next;
+
+        }
+
         //Display elements
         public void Display()
         {
