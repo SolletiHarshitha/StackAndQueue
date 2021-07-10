@@ -27,21 +27,6 @@ namespace StackAndQueueImplementation
             }
         }
 
-        //Find the peak element
-        public void Peak()
-        {
-            if(top==null)
-            {
-                Console.WriteLine("Stack is empty");
-            }
-            else
-            {
-                Console.WriteLine(top.data+" is the peak element of the Stack");
-            }
-        }
-
-        
-
         //Display elements in a stack
         public void Display()
         {
