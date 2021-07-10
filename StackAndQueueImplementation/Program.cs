@@ -25,10 +25,21 @@ namespace StackAndQueueImplementation
                 Console.WriteLine();
             }
 
-            //Display list
+            //Display stack
             stack.Display();
+            Console.WriteLine("-----------------------------------------------------");
+            Console.WriteLine();
+            Console.WriteLine("-------------------------Queue-----------------------");
+            Queue queue = new Queue();
 
+            //Adding elements
+            queue.Enqueue(56);
+            queue.Enqueue(30);
+            queue.Enqueue(70);
 
+            //Display queue
+            queue.Display();
+            Console.WriteLine("-------------------------------------------------------");
         }
     }
 }
