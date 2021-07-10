@@ -27,6 +27,38 @@ namespace StackAndQueueImplementation
             }
         }
 
+        //Checking stack is empty or not
+        public bool IsEmpty()
+        {
+
+            return top == null;
+        }
+
+        //Find the peak element
+        public void Peak()
+        {
+            if (top == null)
+            {
+                Console.WriteLine("Stack is empty");
+            }
+            else
+            {
+                Console.WriteLine(top.data + " is the peak element of the Stack");
+            }
+        }
+
+        //Pop an element
+        public void Pop()
+        {
+            if (top == null)
+                Console.WriteLine(" Stack is empty ");
+            else
+            {
+                Console.WriteLine("Popped element from the Stack is " + top.data);
+                top = top.Next;
+            }
+        }
+
         //Display elements in a stack
         public void Display()
         {
